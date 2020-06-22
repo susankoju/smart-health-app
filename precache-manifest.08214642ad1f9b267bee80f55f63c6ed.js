@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29f4a63aa22464e4d8bebf2c61734555",
+    "revision": "1a4bc94df2cf68963e225b648bfdd8b0",
     "url": "/smart-health-app/index.html"
   },
   {
-    "revision": "6b713308016cf94a92ab",
+    "revision": "583d453e03b5a018ee66",
     "url": "/smart-health-app/static/css/main.39271b64.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smart-health-app/static/js/2.3683dc79.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b713308016cf94a92ab",
-    "url": "/smart-health-app/static/js/main.a5dea3f2.chunk.js"
+    "revision": "583d453e03b5a018ee66",
+    "url": "/smart-health-app/static/js/main.f62a06ff.chunk.js"
   },
   {
     "revision": "97796a7e5a868c515a34",
