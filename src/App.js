@@ -18,9 +18,18 @@ class App extends React.Component {
           console.log(err.stack);
         }
       )
-      console.log(client);
-
+      var data = {}
       client.request("/Patient", { pageLimit: 2 }).then(
+        res => {
+          console.log(JSON.stringify(res));
+          data = res;
+        },
+        err => {
+          console.log(err.stack);
+        }
+      )
+
+      client.create(data).then(
         res => {
           console.log(JSON.stringify(res));
         },
