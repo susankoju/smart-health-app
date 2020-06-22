@@ -9,15 +9,19 @@
         <script>
             FHIR.oauth2.authorize({
 
-              clientId: "c525d7b9-0d1c-4ea8-8352-bb215b05bfea",
+            client_id: "c525d7b9-0d1c-4ea8-8352-bb215b05bfea",
+            //   clientId: "b04f1276-6164-4890-a15c-bfa7202a5163",
+              
 
-              scope: "launch online_access openid fhirUser patient/*.*",
+            // scope: "launch profile openid online_access",
+            scope: "launch online_access openid profile fhirUser patient/*.*",
 
-              // Typically, if your redirectUri points to the root of the current directory
-              // (where the launchUri is), you can omit this option because the default value is
-              // ".". However, some servers do not support directory indexes so "." and "./"
-              // will not automatically map to the "index.html" file in that directory.
-              redirectUri: "index.html"
+            // Typically, if your redirectUri points to the root of the current directory
+            // (where the launchUri is), you can omit this option because the default value is
+            // ".". However, some servers do not support directory indexes so "." and "./"
+            // will not automatically map to the "index.html" file in that directory.
+
+            redirect_uri: "https://susankoju.github.io/smart-health-app/"
             });
         </script>
     </body>

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smart-health-app/precache-manifest.756d5c5c4fdbd081678286dde116954b.js"
+  "/smart-health-app/precache-manifest.c58e832a0ab88fb917ece11ee2107b3e.js"
 );
 
 self.addEventListener('message', (event) => {
