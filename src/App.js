@@ -18,6 +18,7 @@ class App extends React.Component {
           console.log(err.stack);
         }
       )
+      console.log(client);
 
       client.request("/Patient", { pageLimit: 2 }).then(
         res => {
